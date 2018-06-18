@@ -7,7 +7,6 @@ $ git clone https://github.com/MarcialRosales/maven-concourse-pipeline-app1
 ```
 
 
-
 ## Step 04_install_built_artifact
 
 **Set up infrastucture**
