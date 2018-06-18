@@ -23,7 +23,7 @@ nohup docker-compose up &
 Login to *Concourse* and set the pipeline
 ```
 fly -t plan1 login -c http://192.168.99.100:8080 -u concourse -p changeme
-fly -t plan1 sp -p 04_install_built_artifact -c ../maven-concourse-pipeline/pipeline.yml -l credentials.yml
+fly -t plan1 sp -p 04_install_built_artifact -c ../maven-concourse-pipeline/pipeline.yml -l credentials.yml -n
 ```
 
 **Trigger pipeline**
